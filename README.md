@@ -5,7 +5,7 @@ Simple script for downlaod phisilng list domains and save in  /etc/hosts file.
 ## Linux 
 copy phblock.sh to /etc/cron.daily/ 
 ```bash
-chmod +x /etc/cron.daily/
+chmod +x /etc/cron.daily/phblock.sh
 ```
 # New Features!
 
