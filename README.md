@@ -21,6 +21,7 @@ chmod +x /etc/cron.daily/phblock.sh
   - excepctions suport 
   - more source of domains 
   - debug mode
-  -  macOS launchd 
+  - deduplication 
+  - macOS launchd 
   
   
