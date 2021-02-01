@@ -6,8 +6,6 @@ HOSTP="/etc/hosts"
 FOOTER1="#End of auto def"
 
 _CLEAN_HOST_FILE() {
-# sed -i.bak   '/'"$HEADER1"'/,$d' "${HOSTP}"
- #sed -n  '1,/'"$HEADER1"'/p;/'"$FOOTER1"'/,$p' "${HOSTP}"
  sed -i.bakn  '/'"$HEADER1"'/,/'"$FOOTER1"'/d' "${HOSTP}"
 }
 
