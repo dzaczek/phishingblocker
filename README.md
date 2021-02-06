@@ -12,7 +12,7 @@ chmod +x /etc/cron.daily/phblock.sh
   - Downlod phising list from 
     - http://hole.cert.pl/domains/
     - https://github.com/mitchellkrogza/Phishing.Database
-  - Save data in  /etx/hosts  
+  - Save data in  /etc/hosts  
   - Remove data from hosts file 
 
 
