@@ -25,7 +25,7 @@ curl -s   http://hole.cert.pl/domains/domains_hosts.txt   |  grep -E  "([0-9]{1,
 
 _SOURCE_GITHUB_MITC(){
 #https://github.com/mitchellkrogza/Phishing.Database
-wget  -qO- https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/ALL-phishing-domains.tar.gz |  tar -xvzO - 2>/dev/null | sed '1d'  | sed  's/^/195.187.6.34\ /g' >> ${HOSTP} 
+wget  -qO- https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/ALL-phishing-domains.tar.gz |  tar -xvzO  2>/dev/null | sed '1d'  | sed  's/^/195.187.6.34\ /g' >> ${HOSTP} 
 }
 
 
